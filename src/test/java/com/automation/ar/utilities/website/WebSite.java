@@ -7,11 +7,11 @@ import net.serenitybdd.core.pages.PageObject;
 public class WebSite {
 
     @Steps(shared = true)
-    PageObject bhy;
+    PageObject sge;
 
     @Step("Navegar a la aplicacion web")
     public void navigateTo(String url) {
-        bhy.setDefaultBaseUrl(url);
-        bhy.open();
+        sge.setDefaultBaseUrl(url);
+        sge.open();
     }
 }
